@@ -1,4 +1,18 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "hugo-appyness"
+
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    title = "Your faith is worthy."
+    languageName = "English"
+    heading = "Your faith is worthy. Share it."
+    weight = 1
+  [languages.fr]
+    title = "Votre foi est précieuse."
+    languageName = "French"
+    heading = "Your faith is worthy. Share it."
+    weight = 2

@@ -1,0 +1,16 @@
+- id: heading
+  translation: "Your faith is worthy. Share it."
+- id: description
+  translation: "A straightforward way to pray for those who need help. Write or record a prayer and strenghten your neighbor all around the world."
+- id: publishRequest
+  translation: "Publish your prayer request."
+- id: publishRequestTagLine
+  translation: "Sometimes in your life you need to be support by prayers. Describe your situation and be blessed."
+- id: "pray"
+  translation: "Think and pray for those that need it."
+- id: "prayTagLine"
+  translation: "Find the prayer request that is inspiring you and pray. You can either a write or a record one."
+- id: "strenghten"
+  translation: "Receive prayers from all over the world."
+- id: "strenghtenTagLine"
+  translation: "Read, listen and feel all prayers sent and be strenghten by the Lord."

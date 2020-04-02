@@ -1,24 +1,62 @@
-{{- $slides := .Site.Data.slides -}}
-{{- range $slides -}}
-<section class="{{- .backgroundColor -}}">
+<section class="blue">
   <div class="container">
     <div>
       <h2 class="font-weight-bold">
-        {{- .heading -}}
+        {{  i18n "publishRequest" }}
       </h2>
-      <p>{{- .description -}}</p>
+      <p>{{ i18n "publishRequestTagLine" }}</p>
     </div>
     <div class="device-mockup-holder">
         <picture>
           <div class="phone-illustration-holder">
             <img src="{{- .Site.BaseURL -}}img/device-frame.svg" alt="">
             <div class="product-image">
-              <img src="{{- .Site.BaseURL -}}img/screenshots/{{- .screenshot -}}" alt="">
+              <img src="{{- .Site.BaseURL -}}img/screenshots/screen-home-full.png" alt="">
             </div>
           </div>
         </picture>
       </div>
   </div>
 </section>
-{{- end -}}
-   
+
+<section class="orange">
+  <div class="container">
+    <div>
+      <h2 class="font-weight-bold">
+        {{  i18n "pray" }}
+      </h2>
+      <p>{{ i18n "prayTagLine" }}</p>
+    </div>
+    <div class="device-mockup-holder">
+        <picture>
+          <div class="phone-illustration-holder">
+            <img src="{{- .Site.BaseURL -}}img/device-frame.svg" alt="">
+            <div class="product-image">
+              <img src="{{- .Site.BaseURL -}}img/screenshots/screen-audio.png" alt="">
+            </div>
+          </div>
+        </picture>
+      </div>
+  </div>
+</section>
+
+<section class="green">
+  <div class="container">
+    <div>
+      <h2 class="font-weight-bold">
+        {{  i18n "strenghten" }}
+      </h2>
+      <p>{{ i18n "strenghtenTagLine" }}</p>
+    </div>
+    <div class="device-mockup-holder">
+        <picture>
+          <div class="phone-illustration-holder">
+            <img src="{{- .Site.BaseURL -}}img/device-frame.svg" alt="">
+            <div class="product-image">
+              <img src="{{- .Site.BaseURL -}}img/screenshots/screen-prayer.png" alt="">
+            </div>
+          </div>
+        </picture>
+      </div>
+  </div>
+</section>

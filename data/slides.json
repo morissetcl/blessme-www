@@ -1,20 +1,23 @@
 [
   {
-    "heading" : "Suspendisse et odio ut diam",
-    "description" : "Pellentesque ut maximus turpis. Fusce ut fringilla nisi, ut interdum purus. Integer eu mauris at odio interdum molestie a a lectus.",
+    "name": "one",
+    "heading" : "Publish your prayer request.",
+    "description" : "Sometimes in your life you need to be support by prayers. Describe your situation and be blessed.",
     "backgroundColor" : "blue",
-    "screenshot" : "spotify.png"
+    "screenshot" : "screen-home-full.png"
   },
   {
-    "heading" : "Vivamus semper consectetur mattis.",
-    "description" : "Duis facilisis sapien id justo malesuada, eu luctus mauris fringilla. Nam at ipsum diam. ",
+    "name": "two",
+    "heading" : "Think and pray for those that need it.",
+    "description" : "Find the prayer request that is inspiring you and pray. You can either a write or a record one.",
     "backgroundColor" : "orange",
-    "screenshot" : "appstore.png"
+    "screenshot" : "screen-audio.png"
   },
   {
-    "heading" : "Vivamus semper consectetur mattis.",
-    "description" : "Duis facilisis sapien id justo malesuada, eu luctus mauris fringilla. Nam at ipsum diam. ",
+    "name": "three",
+    "heading" : "Receive prayers from all over the world.",
+    "description" : "Read, listen and feel all prayers sent and be strenghten by the Lord.",
     "backgroundColor" : "green",
-    "screenshot" : "calc.png"
+    "screenshot" : "screen-prayer.png"
   }
 ]

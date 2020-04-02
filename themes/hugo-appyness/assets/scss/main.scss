@@ -104,7 +104,7 @@ section {
   }
 
   &.green{
-    background-image: linear-gradient(45deg, #19ab67 0%, #19d47d 100%);
+    background-image: linear-gradient(45deg, #49beb7 0%, #19d47d 100%);
   }
 
   .container{
@@ -141,6 +141,7 @@ section {
         margin: auto;
 
         img{
+          height: 115% !important;
           width: 75%;
         }
       }
@@ -183,11 +184,12 @@ section {
 
     .phone-illustration-holder{
       img{
-        width: 100% !important;
+        width: 90% !important;
       }
       .product-image{
         img {
           width: 100%;
+          height: 115% !important;
         }
       }
     }
@@ -246,7 +248,7 @@ footer{
       border-radius: 4px;
       margin-right: 10px;
       display: inline-block;
-  
+
       &.fixed {
         background-color: #37da98;
         color: #fff;
@@ -281,7 +283,7 @@ pre, code {
   font-size: 16px !important;
   background: #fbfbfb !important;
   border-radius: 4px;
-  padding: 4px; 
+  padding: 4px;
 }
 
 blockquote{
@@ -356,4 +358,17 @@ footer{
 
 .float-right{
   float: right;
+}
+
+.flags {
+  display: flex;
+  margin-top: 3%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 4%;
+  .flag {
+    width: 30px;
+    margin-left: 10px;
+  }
 }
