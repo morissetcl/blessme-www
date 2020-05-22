@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "hugo-appyness"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 
 [languages]
