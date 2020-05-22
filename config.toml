@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://dreamy-jackson-3e331e.netlify.app"
 languageCode = "en-us"
 theme = "hugo-appyness"
 
