@@ -2,6 +2,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90123342-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-90123342-3');
+    </script>
     <style>
     @font-face {
       font-family: "c-black";
@@ -29,7 +38,7 @@
       src: url("{{.Site.BaseURL}}fonts/circular-std/CircularStd-MediumItalic.woff") format('woff');
       font-weight: 500;
       font-display: fallback;
-    }  
+    }
     </style>
     <title>{{ .Title }} - {{$config.name}}</title>
     <meta charset="utf-8">
@@ -54,5 +63,3 @@
     <meta name=”twitter:url” content="{{ .Permalink }}" />
   </head>
   <body>
-    
-  
